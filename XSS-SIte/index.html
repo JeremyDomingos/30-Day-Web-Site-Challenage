@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>XSS</title>
+</head>
+<body>
+    <header>
+        <h1>My Account</h1>
+    </header>
+    <section>
+        <form action="">
+            <label for="textbox">Name: </label>
+            <input type="text" name="textbox" id="textbox">
+        <button>Enter</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 My Account</p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
